@@ -1,5 +1,7 @@
 <img src="/docs/logo.png" alt="Koa middleware framework for nodejs"/>
 
+调试 Nodejs 代码文章参看：[神光-如何调试 Node.js 代码](https://juejin.cn/book/7070324244772716556/section/7071920354117025824)。
+
   [![gitter][gitter-image]][gitter-url]
   [![NPM version][npm-image]][npm-url]
   [![build status][github-action-image]][github-action-url]
