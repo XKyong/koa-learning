@@ -6,7 +6,7 @@
   "configurations": [
     {
       "name": "Launch Program",
-      "program": "${workspaceFolder}/examples/02-onion.js",
+      "program": "${workspaceFolder}/examples/06-unsupport-ctx-res.js",
       "request": "launch",
       "skipFiles": ["<node_internals>/**"],
       "type": "node",

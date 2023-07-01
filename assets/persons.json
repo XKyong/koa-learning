@@ -1,0 +1,14 @@
+[
+  {
+    "name": "kai",
+    "age": 23,
+    "male": true,
+    "hobbies": ["coding", "watching", "playing"]
+  },
+  {
+    "name": "lili",
+    "age": 24,
+    "male": false,
+    "hobbies": ["watching", "dreaming", "swimming"]
+  }
+]

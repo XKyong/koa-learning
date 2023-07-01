@@ -56,7 +56,7 @@ console.log(proto) // =>
 // }
 
 console.log(proto.aa) // 100
-// 'propA' -> 因为被委托对象（delegated object）上的 bar 是 getter，赋值操作不生效，访问时实际返回的是 proto.propA.bar
+// 'propA' -> 因为被委托对象proto（delegated object）上的 bar 是 getter，赋值操作不生效，访问时实际返回的是 proto.propA.bar
 console.log(proto.bar)
 console.log(proto.showName()) // 'proto'
 console.log(proto.getSumTotal())
