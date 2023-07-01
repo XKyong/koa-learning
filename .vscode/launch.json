@@ -6,7 +6,7 @@
   "configurations": [
     {
       "name": "Launch Program",
-      "program": "${workspaceFolder}/examples/01-basic.js",
+      "program": "${workspaceFolder}/examples/02-onion.js",
       "request": "launch",
       "skipFiles": ["<node_internals>/**"],
       "type": "node",
