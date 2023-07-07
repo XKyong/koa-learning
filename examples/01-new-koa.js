@@ -1,5 +1,5 @@
-const fs = require('fs')
-const path = require('path')
+// const fs = require('fs')
+// const path = require('path')
 
 const Koa = require('../lib/application')
 
@@ -14,11 +14,11 @@ console.log(typeof app)
 */
 app.use((ctx, next) => {
   // string
-  // ctx.body = 'hello Koajs'
+  ctx.body = 'hello Koajs'
 
   // stream
-  ctx.set({ 'content-type': 'image/jpg' })
-  ctx.body = fs.createReadStream(path.resolve(__dirname, '../assets/avatar.jpg'))
+  // ctx.set({ 'content-type': 'image/jpg' })
+  // ctx.body = fs.createReadStream(path.resolve(__dirname, '../assets/avatar.jpg'))
 
   // json
   // ctx.body = require(path.resolve(__dirname, '../assets/persons.json'))

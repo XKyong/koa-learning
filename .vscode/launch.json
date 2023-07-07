@@ -6,7 +6,7 @@
   "configurations": [
     {
       "name": "Launch Program",
-      "program": "${workspaceFolder}/examples/06-unsupport-ctx-res.js",
+      "program": "${workspaceFolder}/examples/05-error-handle.js",
       "request": "launch",
       "skipFiles": ["<node_internals>/**"],
       "type": "node",
