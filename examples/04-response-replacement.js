@@ -24,3 +24,5 @@ app.use(three)
 app.listen(3000, () => {
   console.log('服务器启动成功~')
 })
+
+// => 请求方拿到的响应内容是：'hello middleware3'
